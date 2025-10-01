@@ -1,4 +1,4 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -58,18 +58,6 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Node.js",
     image: "node.png",
     width: 80,
@@ -87,12 +75,12 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/karan_singh_rathore_6350/",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "LinkedIn",
+    icon: FaLinkedin,
+    link: "https://www.linkedin.com/in/karansingh7773/",
   },
   {
     name: "Twitter",
@@ -101,66 +89,51 @@ export const SOCIALS = [
   },
 ] as const;
 
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
 
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-
-
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
 
 export const BACKEND_SKILL = [
+  
   {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "Python",
+    image: "python.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express.js",
-    image: "express.png",
+    skill_name: "Microsoft Azure",
+    image: "azure.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "n8n.io",
+    image: "n8n.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "OpenAI",
+    image: "chatgpt.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Supabase",
+    image: "supabase.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Amazon Web Services",
+    image: "aws.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "GitHub",
+    image: "github.png",
+    width: 80,
+    height: 80,
   },
 
 
@@ -178,19 +151,21 @@ export const PROJECTS = [
     title: "🛒 Tekisky Mart – The Future of eCommerce",
     
     image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    slug: "tekisky-mart",
   },
   {
     title: "Tekisky – The Future of Tech",
 
     image: "/projects/project-2.webp",
     link: "https://tekisky.com/",
+    slug: "tekisky",
   },
   {
     title: "Speedline Auto Parts – The Future of Auto Parts",
    
     image: "/projects/project-3.webp",
     link: "https://speedlineautoparts.netlify.app/",
+    slug: "speedline-auto-parts",
   },
 ] as const;
 
@@ -202,7 +177,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/karansingh7773-rathore",
       },
 
     ],
@@ -214,7 +189,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/karansingh7773/",
       },
     ],
   },
@@ -224,8 +199,8 @@ export const FOOTER_DATA = [
    
       {
         name: "Contact Me",
-        icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        icon: FaEnvelope,
+        link: "mailto:karansinghrathore820@gmail.com",
       },
     ],
   },

@@ -69,6 +69,8 @@
     "@heroicons/react": "^2.1.1",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
+    "@supabase/supabase-js": "^2.58.0",
+    "ai": "^5.0.59",
     "clsx": "^2.1.0",
     "framer-motion": "^10.17.12",
     "next": "14.2.15",
@@ -76,6 +78,7 @@
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.5.3",
+    "react-markdown": "^10.1.0",
     "tailwind-merge": "^2.2.0",
     "three": "^0.160.0"
   },

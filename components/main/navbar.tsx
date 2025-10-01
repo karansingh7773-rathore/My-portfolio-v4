@@ -19,16 +19,9 @@ export const Navbar = () => {
           className="flex items-center gap-2" 
           onClick={closeMenu}
         >
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={40}
-            height={40}
-            draggable={false}
-            className="cursor-pointer"
-          />
+          
           <span className="hidden sm:block text-white font-bold tracking-wide">
-            I'm Rahman | Devxora
+            I'm Karan Singh Rathore
           </span>
         </Link>
 
