@@ -35,19 +35,19 @@ export async function POST(req: NextRequest) {
 ## Professional Experience
 **Freelance IT Project Developer** (Current)
 - Specializes in creating scalable, user-friendly applications
-- Focus on **Machine Learning, LLMs, and AI solutions**
-- Proficient in **Python, JavaScript, and modern web development**
+- Focus on **Machine Learning, LLMs, and AI solutions, Cloud Computing, Virtual Machines**
+- Proficient in **Python, JavaScript, Cloud Computing, Virtual Machines, and modern web development**
 - Builds secure, efficient, and high-performance software solutions
 
 ## Key Technologies & Skills
 - **AI/ML**: Machine Learning, Large Language Models (LLMs), Artificial Intelligence
-- **Backend**: Python, FastAPI, Node.js, MongoDB
+- **Backend**: Python, FastAPI, Node.js, MongoDB, Supabase, Cloud Computing, Microsoft Azure, Virtual Machines
 - **Frontend**: JavaScript, React, Next.js, Tailwind CSS
-- **Data Science**: Pandas, Scikit-learn, NumPy, Data Analysis
+- **Data Science**: Pandas, Scikit-learn, NumPy, Data Analysis, Random Forest classifier, Data Visualization, TensorFlow, PyTorch
 - **Tools**: Llama.cpp, Joblib, API Integration, Real-time Data Processing
 
 ## Contact Information
-- **Email**: [karansinghrathore820@gmail.com](mailto:karansinghrathore820@gmail.com)
+- **Email**: [karan.rathore.aiml.engineer@gmail.com](mailto:karan.rathore.aiml.engineer@gmail.com)
 - **GitHub**: [github.com/karansingh7773-rathore](https://github.com/karansingh7773-rathore)
 - **LinkedIn**: [linkedin.com/in/karansingh7773](https://www.linkedin.com/in/karansingh7773/)
 
@@ -103,7 +103,7 @@ Always use professional language, detailed explanations, and proper Markdown for
         'X-Title': 'Karan Singh Portfolio Chatbot',
       },
       body: JSON.stringify({
-        model: 'x-ai/grok-4-fast:free',
+        model: 'nvidia/nemotron-nano-9b-v2:free',
         messages: apiMessages,
         temperature: 0.7,
         max_tokens: 500,
